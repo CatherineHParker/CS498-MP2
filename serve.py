@@ -12,7 +12,7 @@ def func():
         subprocess.Popen(["python3", "stress_cpu.py"])
         return "Thanks!"
     else:
-        sock = socket.gethostbyname()
+        sock = socket.gethostname()
         print(sock)
         return sock
 
